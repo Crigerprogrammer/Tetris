@@ -33,13 +33,21 @@ python
 ```
 Luego de dar enter en el comando, entraremos python y podremos ejecutar código python.
 
-***Extensión de archivos python***
+**Extensión de archivos python**
 Los archivos que contienen líneas de código Python, se deben de guardar con la extensión .py **Ejemplo**: holamundo.py
 ### Ejecutando Archivos Python
-Para ejecutar archivos .py , basta con colocar la palabra python seguido del nombre del archivo con la extensión correspondiente. ***Ejemplo***
+Para ejecutar archivos .py , basta con colocar la palabra python seguido del nombre del archivo con la extensión correspondiente. ***Ejemplo***:
 ``` 
 python hola.py
 ```
 
 ## Tipos de Datos en Python
 
+- **Enteros (int)**: En este grupo están todos los números enteros y long
+- **Booleanos (bool)**: Son los valores falso o verdadero, compatible con las operaciones booleanas ( and, not, or). 
+- **Cadenas (str)**: Son una cadena de texto, ***Ejemplo***: "Hola"
+- **Listas**: Son un grupo o array de datos, pueden contener cualquier de los datos anteriores, ***Ejemplo***: [1,2,3,"hola",true]
+- **Diccionarios**: Son un grupo de datos que se acceden a partir de una clave, ***Ejemplo***: {"clave":"valor"}
+- **Tuplas** : También son un grupo de datos igual que una lista con la diferencia que una tupla después de ser creada, no puede ser modificada.
+
+## Funciones
