@@ -16,11 +16,30 @@ Para descargar Python en sistemas operativos Windows, deberemos ir a python.org,
 ### Linux
 Generalmente en Linux python está integrado, en caso no este instalado podremos instalarlo de las siguientes maneras en las siguientes distribuciones:
 
-***Ubuntu***
+***Ubuntu ó Debian***
 ``` 
-$ sudo apt-get install python3.1
+$ sudo apt-get install python3.8
 ```
-***Debian***
+***Red Hat o Centos***
 ``` 
 $ sudo yum install python
 ```
+
+### Utilizando Python
+
+Para correr python se necesita de una terminal de comandos (cmd en Windows) ó Terminal en usuarios Linux ó Mac. Se puede instalar terminales con comandos linux en sistemas operativos Windows como Ejemplo **Cmder**, **Hyper**, entre otros. Dentro de la terminal colocamos el siguiente comando:
+``` 
+python
+```
+Luego de dar enter en el comando, entraremos python y podremos ejecutar código python.
+
+***Extensión de archivos python***
+Los archivos que contienen líneas de código Python, se deben de guardar con la extensión .py **Ejemplo**: holamundo.py
+### Ejecutando Archivos Python
+Para ejecutar archivos .py , basta con colocar la palabra python seguido del nombre del archivo con la extensión correspondiente. ***Ejemplo***
+``` 
+python hola.py
+```
+
+## Tipos de Datos en Python
+
