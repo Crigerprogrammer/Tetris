@@ -51,3 +51,14 @@ python hola.py
 - **Tuplas** : También son un grupo de datos igual que una lista con la diferencia que una tupla después de ser creada, no puede ser modificada.
 
 ## Funciones
+
+Las funciones se definen con la palabra reservada **def** seguido del nombre de la función y parentesis y dentro de ellos parametros, en dado caso utilice.
+***Ejemplo***:
+``` python
+def hola_mundo()
+... return "Hola mundo"
+...
+hola_mundo()
+```
+El resultado de la anterior función, sería ***Hola Mundo***
+
