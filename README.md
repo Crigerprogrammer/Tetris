@@ -62,3 +62,35 @@ hola_mundo()
 ```
 El resultado de la anterior función, sería ***Hola Mundo***
 
+## Variables
+Las variables, a diferencia de otro lenguaje de programación, no deben ser definidas, ni tampoco indicar su tipo de dato, Python al conocer lo que se alamcena en la variable, conoce su tipo.
+***Ejemplo***
+``` python
+A = 3
+B = A
+C = "Hola"
+```
+
+## Sintaxis Listas
+Las listas se declaran con corchetes, y dentro de una lista puede haber otra lista o algún tipo de dato.
+***Ejemplo***
+``` python
+lista = [21, False, "cadena", [0,1]]
+```
+
+## Sintaxis Tuplas
+Las tuplas se declaran con paréntesis.
+**Recordatorio**, Las tuplas no pueden ser modificadas después de haberlas creado.
+***Ejemplo***
+``` python
+tupla = (21, False, "cadena", [0,1])
+```
+
+## Sintaxis Diccionario
+Los diccionarios de declaran con llaves {}, y la sintaxis es la primer cadena es la clave y la segunda es el valor de dicha clave
+***Ejemplo***
+``` python
+diccionario =  {"clave":"valor", "Nombre":"Cristian" }
+```
+
+
