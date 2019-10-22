@@ -93,4 +93,80 @@ Los diccionarios de declaran con llaves {}, y la sintaxis es la primer cadena es
 diccionario =  {"clave":"valor", "Nombre":"Cristian" }
 ```
 
+## Conversiones
+De flotante a Entero
+``` python
+int(10.5)
+```
+De Entero a Flotante
+``` python
+float(8)
+```
+De Entero a String
+``` python
+str(4)
+```
+De Tupla a Lista
+``` python
+list((10, 6, true))
+```
 
+## Operadores Comunes
+Longitud de una cadena, lista o tupla:
+``` python
+len("Hola mundo")
+```
+Tipo de Dato:
+``` python
+type(60)
+```
+Redondear decimal con x número de decimales.
+``` python
+round(50.839212, 1)
+```
+Sumar una lista 
+``` python
+sum([1,5,10])
+```
+Ordenar una lista 
+``` python
+sorted([5, 3, 9])
+```
+
+### Metodos para aplicar a estructuras
+Estos son algunos de los metodos que se le puede aplicar a las estructuras listas, entre otros.
+append, count, extend, index, insert, pop, remove, reverse, sort
+
+***INFORMACION SOBRE UNA LIBRERIA O FUNCION***
+help(pop)
+
+## Clases
+Para crear una clase en Python utilizamos la palabra reservada **Class**, seguido del nombre de la clase y parentesis, dentro de estos irian paramentros en caso llevaran, posterior se declara constructor con **___init__**, ***Ejemplo***
+``` python
+len("Hola mundo")
+class Estudiante(object): 
+ ... 	def __init__(self,nombre_r,edad_r): 
+ ... 		self.nombre = nombre_r 
+ ... 		self.edad = edad_r 
+ ...
+ ... 	def hola(self): 
+ ... 		return "Mi nombre es %s y tengo %i" % (self.nombre, self.edad) 
+```
+
+## Condicionales IF
+Esta es la sintaxis de las condicionales IF en Python
+``` python
+if ( a > b ):
+ 	elementos 
+ elif ( a == b ): 
+ 	elementos 
+ else:
+ 	elementos
+```
+
+## Bucle FOR:
+Esta es la sintaxis de los ciclos FOR en Python:
+``` python
+ for i in range(10):
+ 	print i
+```
